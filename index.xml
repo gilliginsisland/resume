@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="styles/template.xsl"?>
+<resume>
+	<name>Gil Broochian</name>
+	<tagline>Full Stack Developer</tagline>
+	<headshot>logos/avatar.jpeg</headshot>
+	<bio>I'm a senior software developer with a passion for writing code. I have extensive experience modernizing legacy code bases and developing clean and powerfull frameworks.</bio>
+	<email>gil@broochian.com</email>
+	<address>Lawrence, New York</address>
+	<education>
+		<degree>BBA in Computer Science</degree>
+		<degree>Minor In Mathematics</degree>
+		<name>Baruch College, CUNY</name>
+		<address>New York, NY</address>
+		<year>2014</year>
+	</education>
+	<experience>
+		<title>Senior Software Engineer</title>
+		<name>Oracle</name>
+		<address>New York, NY</address>
+		<logo>logos/oracle.png</logo>
+		<from>Aug 2018</from>
+		<to>Present</to>
+		<description>Works on the Moat Analytics team</description>
+	</experience>
+	<experience>
+		<title>Software Engineer</title>
+		<name>Ubersmith</name>
+		<address>New York, NY</address>
+		<logo>logos/ubersmith.jpeg</logo>
+		<from>Nov 2015</from>
+		<to>Aug 2018</to>
+		<description>Helped modernize Ubersmith, a PHP based, billing software, with built-in infrastructure, order, and support ticket manager. Helped separate the front-end and back-end codebases, and modernize the interaction between them. Modernized code by removing legacy “hacks” such as html tables and iframes in favor of standards like ajax and the latest css.</description>
+	</experience>
+	<experience>
+		<title>Website Engineer</title>
+		<name>TransPerfect</name>
+		<address>New York, NY</address>
+		<logo>logos/transperfect.jpeg</logo>
+		<from>Mar 2015</from>
+		<to>Nov 2015</to>
+		<description>Configured profiles for spidering and crawling of website content to be translated. Modified HTML, JavaScript and CSS as necessary for localization. Performed analysis of web sites and applications for localization potential. Developed scripts to automate file parsing and filtering, and other related activities.</description>
+	</experience>
+	<experience>
+		<title>PHP / MySQL Product Software Developer</title>
+		<name>ActiveFreedom</name>
+		<address>Brooklyn, NY</address>
+		<logo>logos/activefreedom.svg</logo>
+		<from>Oct 2014</from>
+		<to>Jan 2015</to>
+		<description>Developed catalog import scripts for Magento based upon detailed specifications and requirements. Integrated Amazon MWS API feed submissions for new Magento products. Implemented custom front-end CRUD for database.</description>
+	</experience>
+	<experience>
+		<title>Technical Intern</title>
+		<name>SCE Consultants, Inc.</name>
+		<address>Fort Lee, NJ</address>
+		<logo>logos/sce.png</logo>
+		<from>Feb 2011</from>
+		<to>Aug 2014</to>
+		<description>Interned while taking classes for BBA. Provided technical support for various clients. Performed diagnostics and troubleshooting of system issues, documented help desk tickets/resolutions, and maintained equipment inventory lists. Configured Domain Controllers, Active Directory, and Microsoft SQL.</description>
+	</experience>
+</resume>
