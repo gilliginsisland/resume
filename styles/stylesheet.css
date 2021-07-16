@@ -1,12 +1,21 @@
 :root {
 	--gutter: 1.5em 1.75em;
-	--page-margin: 3em;
+	--page-margin: 3em 1em;
+}
+
+@supports(padding: max(0px)) {
+	:root {
+		--page-margin: 3em max(1em, env(safe-area-inset-left), env(safe-area-inset-right));
+	}
 }
 
 body {
 	font-size: 14px;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-	background: hsl(191, 60%, 10%);
+	background-color: hsl(191, 60%, 15%);
+	background-image: -moz-linear-gradient(top, hsl(191, 60%, 10%) 50%, hsl(191, 60%, 15%) 50%);
+	background-image: -webkit-linear-gradient(top, hsl(191, 60%, 10%) 50%,hsl(191, 60%, 15%) 50%);
+	background-image: linear-gradient(to bottom, hsl(191, 60%, 10%) 50%,hsl(191, 60%, 15%) 50%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,7 +57,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-	padding: var(--page-margin) var(--page-margin) 0 var(--page-margin);
+	padding: var(--page-margin);
+	padding-bottom: 0;
 	background-color: hsl(191, 60%, 15%);
 }
 
@@ -77,12 +87,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 -.5em 0;
 	padding: .5em 1em;
 	border: 1px solid #000000;
+	font-weight: 400;
 }
 
 .tagline {
+	position: relative;
+	top: .5em;
 	padding: .5em;
 	font-size: 1.1em;
 	background: #ffffff;
+	font-weight: 500;
 }
 
 .header .intro {
@@ -153,7 +167,9 @@ i.home:after {
 }
 
 .content {
-	padding: 0 var(--page-margin) var(--page-margin) var(--page-margin);
+	padding: var(--page-margin);
+	padding-top: 0;
+	background: hsl(191, 60%, 10%);
 }
 
 .content .sidebar {
@@ -163,12 +179,12 @@ i.home:after {
 
 .content .main {
 	padding: var(--gutter);
-	flex-basis: 6in;
+	flex-basis: 4.5in;
 }
 
 .content section h2 {
 	margin: 0 0 1em 0;
-	padding: .2em 0;
+	padding: .5em 0;
 	font-size: 1.15em;
 	font-weight: 500;
 	border-style: solid;
@@ -202,14 +218,11 @@ i.home:after {
 	width: 56px;
 }
 
-.experience {
-	padding: var(--gutter);
-	padding-top: 0;
-	padding-left: 0;
-	padding-right: 0;
-}
-
 .experience .year,
 .experience .address {
 	opacity: .8;
+}
+
+.experience .description {
+	margin: 1em 0;
 }

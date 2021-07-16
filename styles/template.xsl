@@ -4,6 +4,7 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover"/>
 	<link rel="stylesheet" href="styles/bootstrap-reboot.min.css"/>
 	<link rel="stylesheet" href="styles/stylesheet.css"/>
 	<title><xsl:value-of select="name"/>: <xsl:value-of select="tagline"/></title>
@@ -24,8 +25,14 @@
 					<span class="tagline"><xsl:value-of select="tagline"/></span>
 				</div>
 				<div class="flex-row contact">
-					<div><i class="icon home"/><xsl:value-of select="address"/></div>
-					<div><i class="icon email"/><xsl:value-of select="email"/></div>
+					<div>
+						<i class="icon home"/>
+						<xsl:value-of select="address"/>
+					</div>
+					<div>
+						<i class="icon email"/>
+						<xsl:value-of select="email"/>
+					</div>
 				</div>
 				<div class="intro"><xsl:value-of select="bio"/></div>
 			</div>
@@ -61,19 +68,28 @@
 								</img>
 							</div>
 							<div class="flex-fluid">
-								<div class="flex-row">
-									<div class="">
-										<div class="title"><xsl:value-of select="title"/></div>
-										<div class="name"><xsl:value-of select="name"/></div>
-									</div>
-									<div class="">
-										<div class="year"><xsl:value-of select="from"/> - <xsl:value-of select="to"/></div>
-										<div class="address"><xsl:value-of select="address"/></div>
-									</div>
+								<div class="title">
+									<xsl:value-of select="title"/>
 								</div>
-								<p class="description"><xsl:value-of select="description"/></p>
+								<div class="name">
+									<xsl:value-of select="name"/>
+									<span class="address">
+										- <xsl:value-of select="address"/>
+									</span>
+								</div>
+								<div class="year">
+									<xsl:value-of select="from"/> - <xsl:value-of select="to"/>
+								</div>
+								<p class="description">
+									<xsl:value-of select="description"/>
+								</p>
 							</div>
 						</div>
+						<xsl:choose>
+							<xsl:when test="position() != last()">
+								<hr/>
+							</xsl:when>
+						</xsl:choose>
 					</xsl:for-each>
 				</section>
 			</div>
