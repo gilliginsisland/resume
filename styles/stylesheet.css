@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 .header h1 {
 	margin: 0 0 -.5em 0;
 	padding: .5em 1em;
-	border: 1px solid #000000;
+	border: 1px solid hsl(191, 60%, 30%);
 	font-weight: 400;
 }
 
@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.1em;
 	background: #ffffff;
 	font-weight: 500;
+	color: hsl(191, 60%, 30%);
 }
 
 .header .intro {
@@ -117,53 +118,9 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 0;
 }
 
-i.icon {
-	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-	font-style: normal;
-	color: currentColor;
-	text-align: left;
-	text-indent: -9999px;
-	direction: ltr;
-	border: 2px solid;
-}
-
-i.icon:before, i.icon:after {
-	content: "";
-	pointer-events:none;
-	border: 2px solid
-}
-
-i.home {
-	width: 22px;
-	height: 16px;
-	border-top: none;
-	margin:15px 6px 3px
-}
-
-i.home:before {
-	width: 18px;
-	height: 18px;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	position: absolute;
-	left: -2px;
-	top: -7px;
-	border-right-color: transparent;
-	border-bottom-color:transparent
-}
-
-i.home:after {
-	width: 6px;
-	height: 10px;
-	bottom: 0;
-	position: absolute;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-	border-width: 1px;
-	border-bottom:none
+.header .contact img {
+	margin-right: .25em;
+	height: 2em;
 }
 
 .content {
