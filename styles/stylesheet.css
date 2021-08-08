@@ -125,7 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 0;
 }
 
-.header .contact img {
+.header .contact img,
+.header .contact svg {
 	margin-right: .25em;
 	height: 2em;
 }
