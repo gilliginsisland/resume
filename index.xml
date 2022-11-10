@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="styles/template.xsl"?>
 <resume>
 	<name>Gil Broochian</name>
-	<title>Full Stack Developer</title>
+	<title>Principal Software Engineer</title>
 	<headshot>logos/avatar.jpeg</headshot>
-	<description>I'm a senior software developer with a passion for writing code. I have extensive experience modernizing legacy code bases and developing clean and powerfull frameworks.</description>
+	<description>Hi, I'm a principle software engineer with a passion for writing code. I have extensive experience modernizing legacy code bases, erasing tech debt, and developing clean and powerfull frameworks.</description>
 	<email>gil@broochian.com</email>
 	<address>Lawrence, New York</address>
 	<education>
@@ -15,12 +15,21 @@
 		<year>2014</year>
 	</education>
 	<experience>
+		<title>Principal Software Engineer</title>
+		<name>Oracle</name>
+		<address>New York, NY</address>
+		<logo>logos/oracle.png</logo>
+		<from>Sept 2022</from>
+		<to>Present</to>
+		<description>Works on the Moat Analytics team</description>
+	</experience>
+	<experience>
 		<title>Senior Software Engineer</title>
 		<name>Oracle</name>
 		<address>New York, NY</address>
 		<logo>logos/oracle.png</logo>
 		<from>Aug 2018</from>
-		<to>Present</to>
+		<to>Sept 2022</to>
 		<description>Works on the Moat Analytics team</description>
 	</experience>
 	<experience>
