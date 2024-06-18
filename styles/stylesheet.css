@@ -172,7 +172,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-	padding: var(--gutter);
 	padding-left: 0;
 	padding-top: 0;
 }
@@ -181,6 +180,21 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	top: .2em;
 	width: 56px;
+	margin-right: 1em;
+}
+
+.skills ul {
+	margin: 0 2em;
+	padding: 0;
+}
+
+.skills {
+	margin: 1em 0;
+}
+
+.skills h6 {
+	font-size: 1em;
+	font-weight: 600;
 }
 
 .experience .year,
@@ -188,6 +202,8 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: .8;
 }
 
-.experience .description {
-	margin: 1em 0;
+.experience .bullets {
+	margin: 1em 0 0 0;
+	padding: 0;
+	list-style: outside;
 }

@@ -4,33 +4,53 @@
 	<name>Gil Broochian</name>
 	<title>Principal Software Engineer</title>
 	<headshot>logos/avatar.jpeg</headshot>
-	<description>Hi, I'm a principle software engineer with a passion for writing code. I have extensive experience modernizing legacy code bases, erasing tech debt, and developing clean and powerfull frameworks.</description>
+	<description>Principal software engineer with extensive experience modernizing legacy code
+		bases, erasing tech debt, and developing clean and powerful frameworks.</description>
 	<email>gil@broochian.com</email>
-	<address>Lawrence, New York</address>
+	<address>West Hempstead, New York</address>
 	<education>
 		<degree>BBA in Computer Science</degree>
 		<degree>Minor In Mathematics</degree>
 		<name>Baruch College, CUNY</name>
 		<address>New York, NY</address>
-		<year>2014</year>
+		<year>July 2014</year>
 	</education>
+	<skills type="Programming Languages">
+		<skill>Golang</skill>
+		<skill>Python (asyncio)</skill>
+		<skill>Javascript (Typescript)</skill>
+		<skill>PHP</skill>
+		<skill>Lua</skill>
+	</skills>
+	<skills type="Databases">
+		<skill>Sqlite</skill>
+		<skill>MySQL</skill>
+		<skill>Postgres</skill>
+	</skills>
+	<skills type="Cloud Services">
+		<skill>OCI / AWS</skill>
+		<skill>Docker / Kubernetes / Helm</skill>
+	</skills>
+	<skills type="Monitoring">
+		<skill>Prometheus</skill>
+		<skill>Grafana</skill>
+	</skills>
 	<experience>
-		<title>Principal Software Engineer</title>
-		<name>Oracle</name>
-		<address>New York, NY</address>
-		<logo>logos/oracle.png</logo>
-		<from>Sept 2022</from>
-		<to>Present</to>
-		<description>Works on the Moat Analytics team</description>
-	</experience>
-	<experience>
-		<title>Senior Software Engineer</title>
+		<title>Principal Software Engineer (IC4)</title>
 		<name>Oracle</name>
 		<address>New York, NY</address>
 		<logo>logos/oracle.png</logo>
 		<from>Aug 2018</from>
-		<to>Sept 2022</to>
-		<description>Works on the Moat Analytics team</description>
+		<to>Present</to>
+		<bullets>
+			<bullet>Promoted from Senior Developer to IC4 while working on the Moat Javascript ad
+				tracking tag.</bullet>
+			<bullet>Designed a custom build system to modernize a legacy codebase while maintaining
+				backwards compatibility using Rollup and ES6.</bullet>
+			<bullet>Rewrote the Neilson Data Import Pipeline from Python to Golang, improving
+				efficiency, reducing errors, and increasing portability to cloud infrastructure.</bullet>
+			<bullet>Maintained the exports product delivering crucial data to customers.</bullet>
+		</bullets>
 	</experience>
 	<experience>
 		<title>Software Engineer</title>
@@ -39,7 +59,15 @@
 		<logo>logos/ubersmith.jpeg</logo>
 		<from>Nov 2015</from>
 		<to>Aug 2018</to>
-		<description>Helped modernize Ubersmith, a PHP based, billing software, with built-in infrastructure, order, and support ticket manager. Helped separate the front-end and back-end codebases, and modernize the interaction between them. Modernized code by removing legacy “hacks” such as html tables and iframes in favor of standards like ajax and the latest css.</description>
+		<bullets>
+			<bullet>Promoted from front-end to full-stack after 3 months.</bullet>
+			<bullet>Separated the front-end and back-end codebases, modernizing the interaction
+				between them.</bullet>
+			<bullet>Replaced legacy “hacks” such as html tables and iFrames with modern standards
+				such as AJAX and the latest CSS.</bullet>
+			<bullet>Built a graphical template builder for creating customized invoices using PHP
+				and TWIG.</bullet>
+		</bullets>
 	</experience>
 	<experience>
 		<title>Website Engineer</title>
@@ -48,7 +76,15 @@
 		<logo>logos/transperfect.jpeg</logo>
 		<from>Mar 2015</from>
 		<to>Nov 2015</to>
-		<description>Configured profiles for spidering and crawling of website content to be translated. Modified HTML, JavaScript and CSS as necessary for localization. Performed analysis of web sites and applications for localization potential. Developed scripts to automate file parsing and filtering, and other related activities.</description>
+		<bullets>
+			<bullet>Configured profiles for the spidering and crawling of website content to
+				be translated.</bullet>
+			<bullet>Adjusted HTML, JavaScript and CSS as necessary for localization.</bullet>
+			<bullet>Performed analysis of web sites and applications for localization
+				potential.</bullet>
+			<bullet>Developed scripts to automate file parsing and filtering, and other
+				related activities.</bullet>
+		</bullets>
 	</experience>
 	<experience>
 		<title>PHP / MySQL Product Software Developer</title>
@@ -57,7 +93,13 @@
 		<logo>logos/activefreedom.svg</logo>
 		<from>Oct 2014</from>
 		<to>Jan 2015</to>
-		<description>Developed catalog import scripts for Magento based upon detailed specifications and requirements. Integrated Amazon MWS API feed submissions for new Magento products. Implemented custom front-end CRUD for database.</description>
+		<bullets>
+			<bullet>Improved architecture of Magneto based e-commerce site by switching from PHP to
+				HHVM and updating code to be compatible.</bullet>
+			<bullet>Integrated Amazon MWS API feed submissions to enable automated syncing with
+				Magento products.</bullet>
+			<bullet>Implemented front-end layout for database record lookup and excel-like editing.</bullet>
+		</bullets>
 	</experience>
 	<experience>
 		<title>Technical Intern</title>
@@ -66,6 +108,12 @@
 		<logo>logos/sce.png</logo>
 		<from>Feb 2011</from>
 		<to>Aug 2014</to>
-		<description>Interned while taking classes for BBA. Provided technical support for various clients. Performed diagnostics and troubleshooting of system issues, documented help desk tickets/resolutions, and maintained equipment inventory lists. Configured Domain Controllers, Active Directory, and Microsoft SQL.</description>
+		<bullets>
+			<bullet>Interned while taking classes for BBA.</bullet>
+			<bullet>Provided technical support for various clients.</bullet>
+			<bullet>Performed diagnostics and troubleshooting of system issues, documented help
+				desk tickets/resolutions, and maintained equipment inventory lists.</bullet>
+			<bullet>Configured Domain Controllers, Active Directory, and Microsoft SQL.</bullet>
+		</bullets>
 	</experience>
 </resume>
