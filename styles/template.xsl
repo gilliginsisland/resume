@@ -124,14 +124,14 @@
 				<div class="year">
 					<xsl:value-of select="from" /> - <xsl:value-of select="to" />
 				</div>
-				<ul class="bullets">
-					<xsl:for-each select="bullets/bullet">
-						<li>
-							<xsl:value-of select="." />
-						</li>
-					</xsl:for-each>
-				</ul>
 			</div>
+			<ul class="bullets">
+				<xsl:for-each select="bullets/bullet">
+					<li>
+						<xsl:value-of select="." />
+					</li>
+				</xsl:for-each>
+			</ul>
 		</div>
 	<xsl:choose>
 			<xsl:when test="position() != last()">
